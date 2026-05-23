@@ -1,0 +1,114 @@
+aid: kahoot
+url: https://raw.githubusercontent.com/api-evangelist/kahoot/refs/heads/main/apis.yml
+name: Kahoot!
+kind: company
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Game-Based Learning
+  - Education
+  - Quiz
+  - Engagement
+  - Enterprise Learning
+  - Reporting
+  - OAuth
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+description: >-
+  Kahoot! is a game-based learning and engagement platform used in schools, businesses,
+  and at home. Its primary surface is the Kahoot! consumer/teacher product and the Kahoot!
+  360 enterprise tier, with integrations into Microsoft Teams, Zoom, RingCentral, PowerPoint,
+  Google Slides, and LMSs (Cornerstone, Docebo, TalentLMS, Litmos, RiseUp, 360Learning,
+  Absorb). For Kahoot! 360 enterprise customers, a Reports API is available (OAuth 2.0
+  client_credentials) for pulling games, users, participants, organizations, and kahoots
+  data, and Motimate (acquired by Kahoot!) exposes a separate gated Public API. Access to
+  both APIs is provisioned by a customer success manager and not publicly self-serve.
+apis:
+  - aid: kahoot:reports-api
+    name: Kahoot! Reports API
+    description: >-
+      Enterprise Reports API for Kahoot! 360 organizations. Exposes data on games, users,
+      participants, organizations, and kahoots created by the organization. Uses OAuth 2.0
+      client_credentials at https://access-2.kahoot.com/auth/realms/kahoot-api/protocol/openid-connect/token.
+      Client ID and secret are provided by a Kahoot! customer success manager — no public
+      self-serve onboarding.
+    humanURL: https://support.kahoot.com/hc/en-us/articles/11735948502931-Guide-to-Kahoot-reports-API
+    baseURL: https://apis.kahoot.it
+    tags:
+      - Reports
+      - Analytics
+      - OAuth
+      - Enterprise
+    properties:
+      - type: Documentation
+        url: https://support.kahoot.com/hc/en-us/articles/11735948502931-Guide-to-Kahoot-reports-API
+      - type: Authentication
+        url: https://access-2.kahoot.com/auth/realms/kahoot-api/protocol/openid-connect/token
+  - aid: kahoot:motimate-public-api
+    name: Motimate Public API
+    description: >-
+      Public API for Motimate (a Kahoot! company), the workplace learning and culture app.
+      Gated to enterprise customers; documentation is hosted in the Kahoot! help center and
+      authentication credentials are issued by a customer success manager.
+    humanURL: https://support.kahoot.com/hc/en-us/articles/42847725135763-Motimate-How-to-use-Motimate-Public-API
+    baseURL: https://app.motimateapp.com
+    tags:
+      - Workplace Learning
+      - Motimate
+      - Enterprise
+    properties:
+      - type: Documentation
+        url: https://support.kahoot.com/hc/en-us/articles/42847725135763-Motimate-How-to-use-Motimate-Public-API
+common:
+  - type: Website
+    url: https://kahoot.com
+  - type: Kahoot360
+    url: https://kahoot360.com
+  - type: Integrations
+    url: https://kahoot360.com/integrations/
+  - type: Schools
+    url: https://kahoot.com/schools/
+  - type: Business
+    url: https://kahoot.com/business/
+  - type: HelpCenter
+    url: https://support.kahoot.com
+  - type: Pricing
+    url: https://kahoot.com/pricing/
+  - type: Academy
+    url: https://academy.kahoot.com
+  - type: Blog
+    url: https://kahoot.com/blog/
+  - type: TrustCenter
+    url: https://trust.kahoot.com
+  - type: PrivacyPolicy
+    url: https://trust.kahoot.com/privacy-policy/
+  - type: TermsOfService
+    url: https://trust.kahoot.com/terms-and-conditions/
+  - type: GitHub
+    url: https://github.com/kahoot
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/kahoot-
+  - type: Twitter
+    url: https://x.com/getkahoot
+  - type: Facebook
+    url: https://www.facebook.com/Kahoot
+  - type: YouTube
+    url: https://www.youtube.com/c/kahoot
+  - type: IRPage
+    url: https://kahoot.com/investor/
+integrations:
+  - name: Microsoft Teams
+  - name: Zoom
+  - name: RingCentral
+  - name: Microsoft PowerPoint
+  - name: Google Slides
+  - name: Cornerstone
+  - name: Docebo
+  - name: TalentLMS
+  - name: Litmos
+  - name: RiseUp
+  - name: 360Learning
+  - name: Absorb
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
