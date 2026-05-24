@@ -96,6 +96,8 @@ common:
     url: https://www.youtube.com/c/kahoot
   - type: IRPage
     url: https://kahoot.com/investor/
+  - type: LLMsTxt
+    url: https://kahoot.it/llms.txt
 integrations:
   - name: Microsoft Teams
   - name: Zoom
