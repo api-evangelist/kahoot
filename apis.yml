@@ -96,7 +96,7 @@ common:
     url: https://www.youtube.com/c/kahoot
   - type: IRPage
     url: https://kahoot.com/investor/
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://kahoot.it/llms.txt
 integrations:
   - name: Microsoft Teams
