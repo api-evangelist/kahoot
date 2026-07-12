@@ -60,6 +60,12 @@ apis:
       - type: Documentation
         url: https://support.kahoot.com/hc/en-us/articles/42847725135763-Motimate-How-to-use-Motimate-Public-API
 common:
+  - type: TrustCenter
+    url: security/kahoot-trust-center.yml
+  - type: VulnerabilityDisclosure
+    url: security/kahoot-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/kahoot-domain-security.yml
   - type: Website
     url: https://kahoot.com
   - type: Kahoot360
