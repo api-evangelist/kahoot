@@ -96,6 +96,12 @@ apis:
       - type: Documentation
         url: https://support.kahoot.com/hc/en-us/articles/42847725135763-Motimate-How-to-use-Motimate-Public-API
 common:
+  - type: Plans
+    url: plans/kahoot-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/kahoot-rate-limits.yml
+  - type: FinOps
+    url: finops/kahoot-finops.yml
   - type: TrustCenter
     url: security/kahoot-trust-center.yml
   - type: VulnerabilityDisclosure
